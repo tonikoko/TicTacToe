@@ -35,14 +35,14 @@ function checkWin() {
       // alert(`${currentPlayer} wins!`);
 
       resetBoard();
-      return showPopup();
+      return showPopup(currentPlayer);
     }
   }
 
   if (Array.from(cells).every((cell) => cell.textContent !== "")) {
-    alert("Tie game!");
+    // alert("Tie game!");
     resetBoard();
-    return;
+    return showPopup("Niemand");
   }
 }
 
@@ -53,7 +53,7 @@ function resetBoard() {
   popup.style.display = "none";
   currentPlayer;
 }
-function showPopup() {
+function showPopup(player) {
   popup.style.display = "flex";
-  winnerText.textContent = `${currentPlayer} gewinnt!`;
+  winnerText.textContent = player + ` gewinnt!`;
 }
