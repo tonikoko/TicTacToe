@@ -32,6 +32,19 @@ button {
   color: lightcyan;
   cursor: pointer;
 }
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .marginTop24 {
   margin-top: 24px;
 }
@@ -85,6 +98,7 @@ input {
   padding: 32px 48px;
   color: rgb(178, 51, 241);
   border-radius: 8px;
+  animation: bounceIn 700ms;
 }
 #popup {
   display: none;
