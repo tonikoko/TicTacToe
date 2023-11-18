@@ -65,7 +65,7 @@ button {
   text-align: center;
   line-height: 100px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 form {
   display: flex;
