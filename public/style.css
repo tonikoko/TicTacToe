@@ -81,11 +81,12 @@ input {
 }
 .submitButton {
   font-weight: 600;
+  border-radius: 0px;
   background: none;
   color: rgb(244, 7, 114);
   border: 1.25px rgb(244, 7, 114);
   border-style: none none solid none;
-  padding-bottom: 4px;
+  padding-bottom: 32px;
   cursor: pointer;
 }
 .gap24 {
