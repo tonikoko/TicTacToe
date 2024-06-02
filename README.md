@@ -13,5 +13,5 @@
   <br>
   <li>Browser öffnen</li>
   <li><a href="http:localhost:5173" target="_blank">localhost:5173</a> öffnen</li>
-  <li><h4>Spiele</h4></li>
+  <li><h4>Spielen</h4></li>
 </ol>
