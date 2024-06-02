@@ -1,7 +1,7 @@
 <h1>Mein Abschlussprojekt für die IBAW</h1>
 <h2>von Arton Kokollari</h2>
 
-<h3>Zum Starte folgende Schritte</h3>
+<h3>Zum Starten folgende Schritte befolgen</h3>
 <ol>
   <b>Für Server</b>
   <li>$ cd Server</li>
